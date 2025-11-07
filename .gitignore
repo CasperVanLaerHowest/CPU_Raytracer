@@ -399,3 +399,17 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# ----------------------------------------------------------------
+# CMake
+# ----------------------------------------------------------------
+# Build directories (like your 'out' folder)
+**/out/
+**/build/
+
+# CMake cache and generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
